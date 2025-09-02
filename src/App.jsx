@@ -30,8 +30,6 @@ export default function App() {
         <h1 className="text-3xl font-bold text-gray-800 mb-6 text-center">
           🐞 Mini Bug Tracker
         </h1>
-
-        {/* Formulaire */}
         <form
           onSubmit={onCreate}
           className="grid gap-4 mb-8"
@@ -56,8 +54,6 @@ export default function App() {
             ➕ Ajouter
           </button>
         </form>
-
-        {/* Liste des bugs */}
         <h2 className="text-xl font-semibold text-gray-700 mb-4">Bugs</h2>
         <ul className="grid gap-4">
           {bugs.map(b => (
